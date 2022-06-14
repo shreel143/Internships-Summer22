@@ -35,5 +35,6 @@
 - scanf("%d%d%d",&a,&b,&c);
 
 ### 8. PREFIX POSTFIX
-- A=a++ ------> operator baadme isliye --->
-- a=++a ------> operator pahle --->
+- A=a++ ------> operator baadme isliye ---> first o/p then inc val
+- a=++a ------> operator pahle ---> first inc and then o/p prints inc value
+- 
