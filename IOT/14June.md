@@ -16,6 +16,8 @@
 
 ###  FORMAT SPECIFIER IN C 
 - mainly for input a) %d int b) %c char c) %f float d) %e scientififc notation float %h short int etc e) %s string %p pointer 
-- 
+
 ### BITWISE 
 - for binary (and or xor left shift right shift 
+### TERNARY OPERATOR
+- var= exp1?exp2:exp3 (if t then 2 otherwise 3)
