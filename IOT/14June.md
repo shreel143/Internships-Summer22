@@ -10,5 +10,6 @@
 ### PROGRAMMING-
 - Dev c++ ide 
 - new exe file 
-- * means not complied in dev c++
-- 
+- "*" means not complied in dev c++
+- // single line comment
+- /* multiline comment*/
