@@ -21,10 +21,17 @@
 
 ### 4. BITWISE 
 - for binary (and or xor left shift right shift )
+
 ### 5. TERNARY OPERATOR
 - var= exp1?exp2:exp3 (if t then 2 otherwise 3)
+
 ### 6. OUTPUT 
 - printf("%d",a)-------- here datatype that we want to print is int 
 - single char from right to left printf("%c",a) if char a="xy"
+
 ### 7. INPUT 
 - scanf ("%d",&a)
+
+### 8. PREFIX POSTFIX
+- A=a++ ------> operator baadme isliye --->
+- a=++a ------> operator pahle --->
