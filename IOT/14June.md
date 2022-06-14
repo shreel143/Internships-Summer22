@@ -28,9 +28,11 @@
 ### 6. OUTPUT 
 - printf("%d",a)-------- here datatype that we want to print is int 
 - single char from right to left printf("%c",a) if char a="xy"
+- printf("a=%d\t b=%d\t c=%d",a,b,c);
 
 ### 7. INPUT 
 - scanf ("%d",&a)
+- scanf("%d%d%d",&a,&b,&c);
 
 ### 8. PREFIX POSTFIX
 - A=a++ ------> operator baadme isliye --->
