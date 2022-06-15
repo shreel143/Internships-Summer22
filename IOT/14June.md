@@ -29,6 +29,7 @@
 - printf("%d",a)-------- here datatype that we want to print is int 
 - single char from right to left printf("%c",a) if char a="xy"
 - printf("a=%d\t b=%d\t c=%d",a,b,c);
+- int a=10; int b=20; printf("%d",a+b);
 
 ### 7. INPUT 
 - scanf ("%d",&a)
