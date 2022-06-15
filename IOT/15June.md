@@ -5,6 +5,16 @@
 2. IF ELSE - we get two block of codes here 
 3. IF ELSE IF-
 4. SWITCH- 
+          switch (expression){
+          case value1: statement 
+                       break;(optional)
+          default : statement;
+            - expression must be of int or char type (here agar koi expression hota to result may vary )
+            - case value must be char or int constant 
+            - case value only inside block of switch 
+            - only first true execute and rest out of it due to break
+            - if no break , then all cases executed after true stament are executed 
+            
 ### ITERATIVE STATEMENTS 
 1. WHILE -
 2. DO-WHILE -
