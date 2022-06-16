@@ -35,12 +35,13 @@
 1. BREAK - used to exit switch or for or while loop 
 2. CONTINUE - used in loops to skip
 3. GOTO -
-                               ```
-                               x:
-                               goto x; 
-                               checkpoint 
-                               this will check location of x in code and wont be terminated till we want i.e. is in infinite loop
-                               ```
+    ```
+    x:
+    goto x; 
+    checkpoint 
+    this will check location of x in code and wont be terminated till we want i.e. is in infinite loop
+    ```
+                            
                                
                                                 
                                                 void checkEvenOrNot(int num)
