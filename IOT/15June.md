@@ -35,7 +35,8 @@
                                goto x; 
                                checkpoint 
                                this will check location of x in code and wont be terminated till we want i.e. is in infinite loop
-                               void checkEvenOrNot(int num)
+                                                
+                                                void checkEvenOrNot(int num)
                                                 {
                                                     if (num % 2 == 0)
                                                     // jump to even
