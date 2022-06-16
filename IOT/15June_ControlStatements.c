@@ -95,10 +95,107 @@ printf("KINDLY ENTER VALUE BETWEEN 0 TO 100");
 }
 
 // HERE WE HAVE USED ELSE INORDER TO AVOID RUNTIME ERROR (MARKS>100 && <0)
+//
 output-
 Enter the marks:
 400
 KINDLY ENTER VALUE BETWEEN 0 TO 100
   
 //---------------------------------------------------------------//
+//3. SWITCH STATEMENT
+#include <stdio.h>
+void main()
+{
+    int a, b, op;
+
+    printf("WELCOME TO THE CALCULATOR :\n");
+
+    printf("For Addition=1\nFor Subtraction=2\nFor Multiplication=3\nFor Division=4\n");
+    printf("Enter the number for mathematical operation to be performed:\n");
+    scanf("%d", &op);
+
+    printf("Enter the 2 integers values :\n");
+    scanf("%d %d", &a, &b);
+
+    switch (op)
+    {
+    case 1:
+        printf("Addition Result of %d and %d = %d", a, b, a + b);
+        break;
+        // BREAK: used to stop execution of all other if this condition is true
+    case 2:
+        printf("Subtraction Result of %d and %d = %d", a, b, a - b);
+        break;
+    case 3:
+        printf("Multiplication Result of %d and %d = %d", a, b, a * b);
+        break;
+    case 4:
+        printf("Division Result of %d and %d = %d", a, b, a / b);
+        break;
+    default:
+        printf("KINDLY ENTER OPERATION VALUE BETWEEN 1 TO 4 ");
+        break;
+    }
+}
+// OUTPUT:
+// WELCOME TO THE CALCULATOR :
+// For Addition=1
+// For Subtraction=2
+// For Multiplication=3
+// For Division=4
+// Enter the number for mathematical operation to be performed:
+// 3
+// Enter the 2 integers values :
+// 20
+// 3
+// Multiplication Result of 20 and 3 = 60
+
+//--------------------------------------------------------------------------//
+//4. USE of goto in switch 
+#include <stdio.h>
+void main()
+{
+    int a, b, operator,cont;
+
+    printf("WELCOME TO THE CALCULATOR :\n");
+x:
+    printf("For Addition=1\nFor Subtraction=2\nFor Multiplication=3\nFor Division=4\n");
+    printf("Enter the number for mathematical operation to be performed:\n");
+    scanf("%d", &operator);
+
+    printf("Enter the 2 integers values :\n");
+    scanf("%d %d", &a, &b);
+
+    switch (operator)
+    {
+    case 1:
+        printf("Addition Result of %d and %d = %d", a, b, a + b);
+        break;
+        // BREAK: used to stop execution of all other if this condition is true
+    case 2:
+        printf("Subtraction Result of %d and %d = %d", a, b, a - b);
+        break;
+    case 3:
+        printf("Multiplication Result of %d and %d = %d", a, b, a * b);
+        break;
+    case 4:
+        printf("Division Result of %d and %d = %d", a, b, a / b);
+        break;
+    default:
+        printf("KINDLY ENTER OPERATION VALUE BETWEEN 1 TO 4 ");
+        break;
+    }
+    printf("Do you wish to Continue \n Enter 1 to Continue Otherwise enter 0:\n");
+    scanf("%d", &cont);
+	if(cont==1)
+    {
+    	goto x;
+	}
+	else
+	{
+	   goto y;
+	}
+	y:
+		 break;
+}
 
