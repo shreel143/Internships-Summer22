@@ -61,4 +61,4 @@
                                                 odd:
                                                     cout << num << " is odd";
                                                 }
-[CODES](15June_ControlStatements(Selection,jump)/15June_ControlStatements.c)
+[CODES](15June_ControlStatements.c)
