@@ -15,6 +15,7 @@
 - only for int datatypes 
 - can't be used for char data type 
 
+
     ```
     for (initialisation(a) ; condition(b)(for termination) ; updation(c))
       { 
@@ -26,20 +27,23 @@
  -  Advantage of WHILE LOOP OVER FOR == **we can allow updation/modification by user**
  -   to compare char use "==" and char value in single ' ' 
  
-    `initialisation (a)
+      ```
+      initialisation (a)
         while (condition(b))
         { 
          block of code;
           updation(c);
-        }`
+        }     
+     ```
+    
   ### C. DO-WHILE LOOP
   - execution --> updation --> condition check 
   
-   ```
+    ```
     initialisation(a) 
     do
     {
         block of code;
         updation(b);
     }while (condition(c));
-   ```
+    ```
