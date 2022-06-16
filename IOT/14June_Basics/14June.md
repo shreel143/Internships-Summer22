@@ -45,3 +45,5 @@
 ### 8. PREFIX POSTFIX
 - A=a++ ------> operator baadme isliye ---> first o/p then inc val
 - a=++a ------> operator pahle ---> first inc and then o/p prints inc value
+
+[CODES](14June_InputOutput.c)
