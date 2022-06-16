@@ -22,6 +22,7 @@
       
  ### B. WHILE LOOP
  -  Advantage of WHILE LOOP OVER FOR == **we can allow updation/modification by user**
+ -   to compare char use "==" and char value in single ' ' 
  
     `initialisation (a)
         while (condition(b))
@@ -32,13 +33,11 @@
   ### C. DO-WHILE LOOP
   - execution --> updation --> condition check 
   
-    `initialisation(a) 
-      do 
-      {
+   ```
+    initialisation(a) 
+    do
+    {
         block of code;
         updation(b);
-      }
-      while (condition(c));
-        `
-  ### D. INFINITE LOOP
-  - in
+    }while (condition(c));
+   ```
