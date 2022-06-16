@@ -32,7 +32,7 @@
 3. FOR-
                                
 ### JUMP STATEMENTS 
-1. BREAK - used to exit a for or while loop 
+1. BREAK - used to exit switch or for or while loop 
 2. CONTINUE - used in loops to skip
 3. GOTO -
                                ```
