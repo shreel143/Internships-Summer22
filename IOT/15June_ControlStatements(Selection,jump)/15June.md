@@ -7,9 +7,11 @@
    - here all if are checked if nested (ex- email and password if we click forget pswd then it ask for further info )
 3. IF ELSE 
    - we get two block of codes here 
+   - [IF ELSE](15June_If Else.c)
 5. IF ELSE IF-
    -here all else -if are NOT checked 
    - atleast 2 statements checked (if always checked ) if if statement is false
+   - [IF ELSE-IF](15June_If Else-If.c)
 6. SWITCH- 
 
           switch (expression){
@@ -23,6 +25,7 @@
     - only first true execute and rest out of it due to break
     - if no break , then all cases executed after true stament are executed 
     - only one statement executed unlike if else-if 
+    - [SWITCH](15June_SwitchWithGoto.c)
  
  ***if else<<<if elseif <<<switch***
             
