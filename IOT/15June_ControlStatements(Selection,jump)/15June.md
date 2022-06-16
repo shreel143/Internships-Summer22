@@ -23,7 +23,7 @@
     - only first true execute and rest out of it due to break
     - if no break , then all cases executed after true stament are executed 
     - only one statement executed unlike if else-if 
-            
+ 
  ***if else<<<if elseif <<<switch***
             
 ### ITERATIVE STATEMENTS 
@@ -35,6 +35,7 @@
 1. BREAK - used to exit switch or for or while loop 
 2. CONTINUE - used in loops to skip
 3. GOTO -
+              
     ```
     x:
     goto x; 
@@ -60,3 +61,4 @@
                                                 odd:
                                                     cout << num << " is odd";
                                                 }
+[CODES](IOT/15June_ControlStatements(Selection,jump)/15June_ControlStatements.c)
