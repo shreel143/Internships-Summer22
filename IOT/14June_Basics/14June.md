@@ -17,7 +17,14 @@
 - /* multiline comment*/
 
 ### 3. FORMAT SPECIFIER IN C 
-- mainly for input a) %d int b) %c char c) %f float d) %e scientififc notation float %h short int etc e) %s string %p pointer 
+- mainly for input 
+  1. %d int  
+  2. %c char 
+  3. %f float 
+  4. %e scientific notation 
+  5. %h short int 
+  6. %s string 
+  7. %p pointer 
 
 ### 4. BITWISE 
 - for binary (and or xor left shift right shift )
