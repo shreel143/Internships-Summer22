@@ -13,8 +13,8 @@ c=a>b?a:b;
 printf("%d",c);
 
 }
---------------------------------------------------------------------------
-OPTIMISED APPROACH- (as no extra c of 4 byte is created)
+
+// OPTIMISED APPROACH- (as no extra c of 4 byte is created)
 #include<stdio.h>
 void main()
 {
@@ -28,7 +28,6 @@ printf("%d",a>b?a:b);
 
 }
 
-------------------------------------------------------------------------------
-output-
-  12
-  15
+// output-
+//   12
+//   15
