@@ -15,10 +15,12 @@
 - only for int datatypes 
 - can't be used for char data type 
 
-    ` for (initialisation(a) ; condition(b)(for termination) ; updation(c))
+    ```
+    for (initialisation(a) ; condition(b)(for termination) ; updation(c))
       { 
       block of code;
-      }`
+      }
+    ```
       
  ### B. WHILE LOOP
  -  Advantage of WHILE LOOP OVER FOR == **we can allow updation/modification by user**
