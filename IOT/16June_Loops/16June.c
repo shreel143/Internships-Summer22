@@ -82,3 +82,24 @@ void main()
 // Do you wish  to continue
 //  Enter y or n :
 
+//4. DO WHILE
+#include <stdio.h>
+void main()
+{
+    int i;
+    do
+    {
+    	printf("Hello User");
+    	printf("\nDo you want to continue?");
+    	scanf("%d",&i);
+	}
+	while(i==1);
+}
+//OUTPUT-
+// Hello User
+// Do you want to continue?1
+// Hello User
+// Do you want to continue?0
+
+// --------------------------------
+// Process exited after 5.543 seconds with return value 0
