@@ -47,3 +47,32 @@
         updation(b);
     }while (condition(c));
     ```
+### D. INFINITE LOOPS 
+- used in making games and operating systems
+- wont end until we want it to 
+
+```
+for( ; ; )
+{
+  printf("*");
+}
+
+while(1)
+{
+  printf("*");
+}
+
+int a;
+while(a>0)
+{
+  printf("*");
+}
+
+int a;
+while(a>0)
+{
+  printf("*");
+  a++;
+}
+
+```
