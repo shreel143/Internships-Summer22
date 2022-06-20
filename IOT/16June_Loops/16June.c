@@ -71,7 +71,7 @@ void main()
     {
         printf("\tSUCCESS!! ");
         printf("\nDo you wish  to continue \n Enter y or n :");
-        scanf("%c", &per);
+        scanf(" %c", &per);// WE ADDED EXTRA SPACE BEFORE %C TO RESOLVE BUFFER INDEX PROBLEM 
     }
 }
 //OUTPUT-
@@ -81,7 +81,8 @@ void main()
 //         SUCCESS!!
 // Do you wish  to continue
 //  Enter y or n :
-
+// REASON- WHEN WE DO CHAR INPUT , BUFFER PROBLEM  EK BUFFER INPUT AA RAHA HAI SO  FIRST TIME ME Y AND BUFFER INPUT LE RAHA THA 
+// IN CHAR--> BUFFER INPUT 
 //4. DO WHILE
 #include <stdio.h>
 void main()
