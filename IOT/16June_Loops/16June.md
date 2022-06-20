@@ -26,6 +26,8 @@
  ### B. WHILE LOOP
  -  Advantage of WHILE LOOP OVER FOR == **we can allow updation/modification by user**
  -   to compare char use "==" and char value in single ' ' 
+ -   REASON- WHEN WE DO CHAR INPUT , BUFFER PROBLEM  EK BUFFER INPUT AA RAHA HAI SO  FIRST TIME ME Y AND BUFFER INPUT LE RAHA THA 
+ -    IN CHAR--> BUFFER INPUT--> TO RESOLVE WE ADD EXTRA SPACE BEFORE %C IN SCANF i.e.--> scanf(" %c",&ans)
  
       ```
       initialisation (a)
