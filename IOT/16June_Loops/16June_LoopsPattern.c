@@ -86,3 +86,35 @@ void main()
 // 12
 // 1
 //------------------------------------------------------------//
+//5.
+#include <stdio.h>
+void main()
+{
+	int a,i,j,k;
+	printf("enter no of col: \n");
+	scanf("%d",&a);
+	for(i=1;i<=a;i++)
+	{
+		for(j=1;j<=(2*a-1);j++)
+		{
+		    if(j>a-i&&j<a+i)
+		    {
+		        printf("*");
+		    }
+		    else
+		    {
+		        printf(" ");
+		    }
+	    }
+	    printf("\n");
+	}
+}
+//OUTPUT-
+// enter no of col:
+// 6
+//      *     
+//     ***    
+//    *****   
+//   *******  
+//  ********* 
+// ***********
