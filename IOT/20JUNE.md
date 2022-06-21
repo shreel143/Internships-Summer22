@@ -33,10 +33,20 @@
   3. EXTERNAL 
       - have link with external file 
       - no memory given 
+      - File 1-> declare and call
+      - File 2 -> define and memory allocate 
+        - Example (COMMAND PROMPT)
+        - to go to file --> properties--> copy path 
+        - cd path 
+        - to open it gcc untitled1.c Untitiled2.c -o combined 
+        - COMBINED(file having both 1 2 and use external storage)
+        - run combined in command prompt (write combined in cmd)
+        - enter integer or input
+        - cmd will give output  
   4. REGISTER
       - memory blocks in cpu (processor)
       - directly data is stored in memory of cpu (like in hardrive)
       - file open request-> saved in hard drive -> when access then come in RAM(interact with cpu)-> cpu takes data from RAM and save in register 
         ->
       - memory allocation directly in cpu but not 100% compulsion ki declare hogi hi depends o availability 
-      -  
+     
