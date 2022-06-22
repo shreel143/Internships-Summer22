@@ -16,5 +16,5 @@
 
 # CALL BY VALUE 
 -> by value normal value passed by function 
-# CALL BY REFERNCE 
+# CALL BY REFERENCE 
 -> by passing address -> less time
