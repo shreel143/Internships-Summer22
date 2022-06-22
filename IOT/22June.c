@@ -38,6 +38,7 @@ void main ()
 // 56      10      30  
 // 34      21      34  
 // 45      56      78
+//----------------------------------------------------------------------------------//
 
 // 2. POINTERS
 #include <stdio.h>    
@@ -45,15 +46,36 @@ void main ()
 {    
     int a=10;
     int *p=&a;
-    printf("%x",p); //--> printing hexadecimal value i.e address
-    printf("\n%d",p); // as integer
-    printf("\n%u",p);//unsigned 
-    printf("\n%d",p); // as octal form of address
-    printf("\n%d",*p);
+    printf("ADDRESS IN HEXADECIMAL FORMAT :%x",p); //--> printing hexadecimal value i.e address
+    printf("\n ADDRESS AS INT :%d",p); // as integer
+    printf("\n ADDRESS AS UNSIGNED INT :%u",p);//unsigned 
+    printf("\n ADDRESS IN OCTAL FORM :%d",p); // as octal form of address
+    printf("\n VALUE OF VARIABLE STORED BY POINTER : %d",*p);
+    printf("\n ADDRESS AS INT without using POINTER :%d",&a); // address of a without pointer
 }  
+// // OUTPUT-
+// ADDRESS IN HEXADECIMAL FORMAT :61fec8
+//  ADDRESS AS INT :6422216
+//  ADDRESS AS UNSIGNED INT :6422216
+//  ADDRESS IN OCTAL FORM :6422216
+//  VALUE OF VARIABLE STORED BY POINTER : 10
+//  ADDRESS AS INT without using POINTER :6422216
+
+//----------------------------------------------------------------------//
+// 3. CALL BY REFERENCE 
+#include <stdio.h>    
+void main ()    
+{    
+    int a=10;
+    change(&a);
+}  
+
+int change(int *s){
+    printf("before change :%d",*s);
+    *s+=10;
+    printf("after change :%d",*s);
+}
 // OUTPUT-
- ADDRESS IN HEXADECIMAL FORMAT :61fec8
- ADDRESS AS INT :6422216
- ADDRESS AS UNSIGNED INT :6422216
- ADDRESS IN OCTAL FORM :6422216
- VALUE OF VARIABLE STORED BY POINTER : 10
+// before change :10
+// after change :20
+//---------------------------------------------------------------------//
