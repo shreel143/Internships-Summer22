@@ -79,3 +79,42 @@ int change(int *s){
 // before change :10
 // after change :20
 //---------------------------------------------------------------------//
+
+//4. CALL BY VALUE AND REFERENCE-
+#include <stdio.h>    
+void main ()    
+{    
+    int a=10;
+    int b=20;
+    printf("\tCALL BY VALUE -");
+    printf("\nA before change(in main) :%d",a);
+    change_by_value(a);
+    printf("\nA after change(in main) :%d",a);
+    
+    printf("\n\tCALL BY REFERENCE -");
+    printf("\nB before change(in main) :%d",b);
+    change_by_reference(&b);
+    printf("\nB after change(in main) :%d",b);
+}  
+
+void change_by_value(int s){
+    printf("\nA before change(in func) :%d",s);
+    s+=10;
+    printf("\nA after change(in func) :%d",s);
+}
+void change_by_reference(int *s){
+    printf("\nB before change (in func) :%d",*s);
+    *s+=10;
+    printf("\nB after change (in func) :%d",*s);
+}
+// OUTPUT-
+//         CALL BY VALUE -
+// A before change(in main) :10
+// A before change(in func) :10
+// A after change(in func) :20
+// A after change(in main) :10
+//         CALL BY REFERENCE -
+// B before change(in main) :20
+// B before change (in func) :20
+// B after change (in func) :30
+// B after change(in main) :30
