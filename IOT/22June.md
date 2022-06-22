@@ -14,5 +14,7 @@
 - DYNAMIC ALLOCATION OF MEMORY - by malloc(), calloc() where pointer is used (stdlib.h)
 - array function structure -> reduces code and improve performance 
 
-# CALL BY VALUE -> by value normal value passed by function 
-# CALL BY REFERNCE -> by passing address -> less time
+# CALL BY VALUE 
+-> by value normal value passed by function 
+# CALL BY REFERNCE 
+-> by passing address -> less time
