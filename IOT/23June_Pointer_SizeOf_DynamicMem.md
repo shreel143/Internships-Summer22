@@ -10,15 +10,24 @@
 - allocate memory at runtime 
 - memory can be inc or dec at time of execution(vs static memory allocation)
 - static= array , Dynamic-> linked list , trees 
-- 4 function in ---------***<stdlib.h>***---------------
-  1. malloc() -> allocates single block allocate
+-  function in ---------***<stdlib.h>***---------------
+  1. malloc() -> MEMORY ALLOCATION--> allocates single block allocate
         - ptr =(data_type*)malloc(size); -> size by sizeof operator 
-        - ex- ptr=(int*)malloc(n*sizeof(int));
+        - resrves meory of given amount of bytes
+        - return value is void pointer hence we typecast it to int 
+        - if space insufficient (in heap) then returns null pointer 
+        - by default initialised by ***garbage value***
+        - int *ptr;
+        - ex- ptr=(int*)malloc(n*sizeof(int)); //(int*) for typecast 
         - ptr=(int*)malloc(sizeof(int));
-  3. calloc() -> allote many memory block allocate
-        - ptr =(data_type*)malloc(size); -> size and number 
+  2. calloc() -> CONTIGUOUS ALLOCATION -->allote "N" memory block allocate
+        - ptr =(data_type*)malloc(n,size_in_bytes); -> size and number 
+        - by default initialised by ***0 value***
         - ex- ptr=(int*)calloc(n,sizeof(int));
-  5. realloc() -> reallocate memory to calloc and malloc
+        - ptr=(ptr-type*)realloc(ptr,new_size_in_bytes);
+  3. realloc() ->REALLOCATION ->  reallocate memory to calloc and malloc
+  4. change size of prev llocated memory 
         -  realloc(ptr,new_size); //new size= new no. of block 
-  7. free() -> free dynamically allocated memory , and saves space complexity 
+  4. free() -> free dynamically allocated memory , and saves space complexity 
         - free(ptr);
+   
