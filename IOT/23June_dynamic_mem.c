@@ -86,7 +86,7 @@ int main()
 		printf("do you want to continue [enter 0 or 1]:");
 		scanf("%d",&choice);
 	}
-ast->ptr=0;
+	last->ptr=0;
 	temp=head;
 	while(temp!=0)
 	{
@@ -112,6 +112,12 @@ ast->ptr=0;
 	temp->ptr=temp2->ptr;
 	temp2->ptr=temp;
 	temp=head;
-	
+	while(temp!=0)
+	{ printf("\ndata items:%d",temp->num);
+	 temp=temp->ptr;
+	 count=count+1;
+	}
+	printf("\n");
+	printf("no of nodes:%d",count);
 	
 //--------------------------------------------------------------------------//
