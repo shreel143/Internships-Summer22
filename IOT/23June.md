@@ -10,9 +10,12 @@
 - 4 function in ---------***<stdlib.h>***---------------
   1. malloc() -> allocates single block allocate
         - ptr =(data_type*)malloc(size); -> size by sizeof operator 
+        - ex- ptr=(int*)malloc(n*sizeof(int));
+        - ptr=(int*)malloc(sizeof(int));
   3. calloc() -> allote many memory block allocate
         - ptr =(data_type*)malloc(size); -> size and number 
+        - ex- ptr=(int*)calloc(n,sizeof(int));
   5. realloc() -> reallocate memory to calloc and malloc
-        -  realloc(ptr,new_size);
+        -  realloc(ptr,new_size); //new size= new no. of block 
   7. free() -> free dynamically allocated memory , and saves space complexity 
         - free(ptr);
