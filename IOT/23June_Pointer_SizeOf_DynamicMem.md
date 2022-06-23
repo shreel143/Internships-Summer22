@@ -40,11 +40,12 @@
                    ptr = (int*) malloc (10, sizeof(int))
           
   3. realloc() ->REALLOCATION ->  reallocate memory to calloc and malloc
-  4. change size of prev llocated memory 
+        -  change size of prev llocated memory 
         -  realloc(ptr,new_size); //new size= new no. of block 
-          ```
-          ptr = (ptr-type*) realloc(ptr,new_size_in_bytes)
-          ptr = (int*) realloc (ptr, 5* sizeof(int))
+        
+            ```
+             ptr = (ptr-type*) realloc(ptr,new_size_in_bytes)
+             ptr = (int*) realloc (ptr, 5* sizeof(int))
           
   4. free() -> free dynamically allocated memory , and saves space complexity 
         - free(ptr);
