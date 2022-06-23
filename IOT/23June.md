@@ -3,6 +3,9 @@
 - int *p=&a;
 - p=p+1;-> POINTER INCREMENT(address inc by 4 bytes)
 
+# SIZEOF OPERATOR
+- cout<<sizeof(a);
+
 # DYNAMIC MEMORY ALLOCATION
 - allocate memory at runtime 
 - memory can be inc or dec at time of execution(vs static memory allocation)
