@@ -21,4 +21,22 @@
 - spam vs ham mails (ai classification algo )
 - business application( erp)
 - audio video application
-- image processing application5
+- image processing application
+
+## VARIABLES IN PYTHON
+- we dont need to specify type of variable 
+- a=10
+- b="hello"
+- c=a // assigning a variable value to c
+- Types of cases-
+    - camelCase -> no spaces -> first capital 
+    - PascalCase
+    - Snake_Case
+- Multiple assign
+    - a=b=c=20
+    - a,b,c=10,20,30
+- LOcal variable 
+    - a=int(input())
+    -   print(a)
+    - function call-> add()
+- Global variable -> can be used inside and outside function( which wasn't possible in c)
