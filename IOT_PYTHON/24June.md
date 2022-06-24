@@ -40,3 +40,16 @@
     -   print(a)
     - function call-> add()
 - Global variable -> can be used inside and outside function( which wasn't possible in c)
+
+# DATA TYPES IN PYTHON
+1. NUMERIC 
+    - INTEGER 
+    - COMPLEX(a+ij) 
+    - FLOAT 
+3. DICTIONARY
+4. BOOLEAN
+5. SET
+6. SEQUENCE 
+    - STRING 
+    - LIST 
+    - TUPPLE
