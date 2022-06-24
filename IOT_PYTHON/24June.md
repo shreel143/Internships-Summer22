@@ -19,3 +19,6 @@
 - image processsing application 
 - enterprise applications
 - spam vs ham mails (ai classification algo )
+- business application( erp)
+- audio video application
+- image processing application5
