@@ -53,3 +53,7 @@
     - STRING 
     - LIST 
     - TUPPLE
+# FUNCTIONS
+- del()
+- type() -> returns type of variable
+- isinstance(
